@@ -275,8 +275,9 @@ public:
 	void	SetWORtransmitter(bool trnsmt);					//E22
 	void	SetWORTIming(uint8_t val);
 
+	/* NOT YET IMPLEMENTED
 	void	ConfiguireRemoteDevice(uint8_t addrHi, uint8_t addrLo, uint8_t netId, ConfigurationType cnfg);
-
+	*/
 	void	SetCrypt(uint16_t val);
 
 	void	GetPID();

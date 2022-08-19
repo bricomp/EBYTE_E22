@@ -570,9 +570,9 @@ void EBYTE::SetCrypt(uint16_t val) {
 
 	SetMode(MODE_NORMAL);
 }
-
-void ConfiguireRemoteDevice(uint8_t addrHi, uint8_t addrLo, uint8_t netId, ConfigurationType confg) {
 /*
+void ConfiguireRemoteDevice(uint8_t addrHi, uint8_t addrLo, uint8_t netId, ConfigurationType confg) {
+
 * 
 * CURRENTLY NOT IMPLEMENTED
 * 
@@ -615,8 +615,9 @@ void ConfiguireRemoteDevice(uint8_t addrHi, uint8_t addrLo, uint8_t netId, Confi
 		CompleteTask(4000);
 	}
 	return ok;
-*/
+
 };
+*/
 
 /*
 method to print parameters, this can be called anytime after init(), because init gets parameters
