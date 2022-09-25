@@ -131,7 +131,7 @@ enum PROGRAM_COMMAND_Type {
 #define UDR_57600  0b110		// 57600 baud
 #define UDR_115200 0b111	// 115200 baud
 
-// parity bit options (must be the same for transmitter and reveiver)
+// parity bit options (can be different for transmitter and reveiver)
 //REG0       ___x x___
 #define PB_8N1 0b00			// default
 #define PB_8O1 0b01
@@ -140,8 +140,8 @@ enum PROGRAM_COMMAND_Type {
 // air data rates (certian types of modules)
 // (must be the same for transmitter and reveiver)
 //REG0        ____ _xxx
-#define ADR_300		0b000		// 2400 baud     //(**)
-#define ADR_1200	0b001		// 2400 baud	//(**)
+#define ADR_300		0b000		// 300 baud     //(**)
+#define ADR_1200	0b001		// 1200 baud	//(**)
 #define ADR_2400	0b010		// 2400 baud
 #define ADR_4800	0b011		// 4800 baud
 #define ADR_9600	0b100		// 9600 baud
