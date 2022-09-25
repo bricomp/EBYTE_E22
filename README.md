@@ -1,3 +1,7 @@
+This file is copied from https://github.com/KrisKasprzak/EBYTE.
+
+The EBYTE_E22 code is based upon the EBYTE code from Kris Kasprzak and modified for use with the E22 modules with some additions.
+
 # EBYTE
  
  
