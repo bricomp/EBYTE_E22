@@ -30,6 +30,7 @@
   Usage of this library consumes around 970 bytes
   Revision		Data		Author			 Description
   0.9			12/07/2021  Bridges/Kasprzak New release for E22 module, modified from E220. Modified original code by Kris Kasprzak
+  0.91			20/08/2024  Bridges			 Correction to RSSI settings...they were the wrong way round
 						***	NOT YET TESTED ***
 
   Module connection
