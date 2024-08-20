@@ -200,8 +200,8 @@ enum PROGRAM_COMMAND_Type {
 
 // Enable RSSI Byte
 //REG3              x___ ____
-#define RSSIEnable  0b0
-#define RSSIDisable 0b1
+#define RSSIDisable 0b0
+#define RSSIEnable  0b1
 
 // (can be different for transmitter and receiver)
 //REG3                    _x__ ____
